@@ -6,6 +6,7 @@ const cors = require('cors');
 
 // Initialize app
 const app = express();
+
 app.use(bodyParser.json());
 app.use(cors());
 
@@ -148,4 +149,5 @@ app.put('/staff/:staffId', async (req, res) => {
 });
 
 // Start server
+const port=process.env.PORT || 1000;
 app.listen(1000, () => console.log('Server is up and running on port 1000'));
