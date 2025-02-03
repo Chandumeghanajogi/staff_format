@@ -1,0 +1,405 @@
+/* Table Styling for the provided JSX */
+.staff-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Ensure table header and data cells take full width */
+.staff-form th, 
+.staff-form td { 
+  text-align: left; /* Align text to the left */
+  vertical-align: middle; /* Ensure vertical alignment */
+  font-size: 14px; /* Base font size */
+  color: #333;
+  padding: 15px;
+  border-bottom: 1px solid #f3c4d6; /* Add bottom border */
+}
+
+/* Ensure educational details columns have full width */
+.staff-form td {
+  width: 100%; /* Set to 100% for all data cells */
+}
+
+/* Specific styles for educational details if they need to be differentiated */
+.educational-details {
+  width: 100%; /* Make this specific class full-width if necessary */
+  padding: 10px; /* Add padding for balance */
+  border: 1px solid #e3a9bd; /* Apply border for aesthetic consistency */
+  border-radius: 6px; /* Ensure it's rounded */
+  background-color: #fff; /* Ensure white background */
+}
+
+/* Align inputs for educational details */
+.educational-details input[type="text"],
+.educational-details input[type="date"] {
+  width: 100%; /* Full width for inputs */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #e3a9bd;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+/* Optional: Adjust spacing between educational rows */
+.educational-details {
+  margin-bottom: 20px; /* Space between educational detail entries */
+}
+
+/* Table Row Hover Effect */
+.staff-form table tbody tr:hover {
+  background-color: #f9d6de; /* Lighter pink on hover */
+}/* General Form Styling */
+.staff-form {
+  max-width: 100%; /* Set the form width to 50% of the page */
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffeef2; /* Pale pink background */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow for better depth */
+  font-family: "Arial", sans-serif;
+  color: #333; /* Dark text for contrast */
+}
+
+/* Table Styling */
+.staff-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.staff-form label {
+  width: 100%; /* Full width for labels inside the form */
+  font-size: 16px; /* Slightly larger font for labels */
+  color: #d6336c; /* Deep pink for labels */
+  font-weight: bold;
+  margin-right: 15px;
+  text-align: left;
+}
+
+/* .staff-form input[type="text"], */
+.staff-form input[type="date"] {
+  flex-grow: 1; /* Input takes up remaining space */
+  padding: 10px;
+  border: 1px solid #e3a9bd;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Form Title */
+.staff-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d6336c; /* Deep pink for title */
+  font-size: 24px; /* Reduced font size for better fit */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Form Layout */
+.staff-form .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.staff-form label {
+  width: 50%; /* Adjust label width */
+  font-size: 16px; /* Slightly larger font for labels */
+  color: #d6336c; /* Deep pink for labels */
+  font-weight: bold;
+  margin-right: 15px;
+  text-align: left;
+}
+
+.staff-form input[type="text"]
+.staff-form input[type="date"] {
+  flex-grow: 1; /* Input takes up remaining space */
+  padding: 10px; /* Reduced padding for tighter spacing */
+  border: 1px solid #e3a9bd; /* Light pink border */
+  border-radius: 6px; /* Slightly more rounded inputs */
+  background-color: #fff; /* White background for inputs */
+  color: #333;
+  font-size: 14px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  display: fit-content;
+}
+
+.staff-form input:focus {
+  border-color: #d6336c; /* Focus border color */
+  outline: none;
+}
+
+/* Button Styling */
+.staff-form .button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+  margin-top: 30px;
+}
+
+.staff-form button {
+  background-color: #d6336c; /* Deep pink for buttons */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 8px; /* Slightly rounded buttons */
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+}
+
+.staff-form button:hover {
+  background-color: #b52a57; /* Darker pink on hover */
+  box-shadow: 0 6px 12px rgba(214, 51, 108, 0.4); /* Subtle shadow on hover */
+}
+
+/* Table Styling */
+.staff-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff; /* White background for table */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.staff-form th {
+  /* width: 100%; */
+  background-color: #fcd2e2; /* Light pink header */
+  color: #d6336c; /* Deep pink text */
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-bottom: 2px solid #e3a9bd;
+}
+
+.staff-form td {
+  padding: 15px;
+  text-align: left; /* Align text to the left */
+  vertical-align: middle; /* Vertically center the content */
+  font-size: 14px;
+  border-bottom: 1px solid #f3c4d6;
+  color: #333;
+  word-wrap: break-word; /* Allow text to wrap inside cells */
+  min-width: 150px; /* Set a minimum width for cells */
+}
+
+/* Table Row Hover Effect */
+.staff-form table tbody tr:hover {
+  background-color: #f9d6de; /* Lighter pink on hover */
+}
+
+
+.staff-form td input[type="text"] {
+  width: 100%; /* Ensure inputs take up the full width of their parent */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #e3a9bd;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.staff-form td input:focus {
+  border-color: #d6336c; /* Focus border color */
+  outline: none;
+}
+
+/* Form Layout */
+.staff-form .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.staff-form label {
+  width: 100%; /* Full width for labels inside the form */
+  font-size: 16px; /* Slightly larger font for labels */
+  color: #d6336c; /* Deep pink for labels */
+  font-weight: bold;
+  margin-right: 15px;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .staff-form {
+    padding: 20px;
+  }
+
+  .staff-form .form-group {
+    flex-direction: column; /* Stack labels and inputs */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .staff-form label {
+    width: 100%; /* Full-width labels */
+    margin-bottom: 5px;
+  }
+
+  .staff-form input {
+    width: 100%; /* Full-width inputs */
+  }
+
+  .staff-form button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+/* Table Styling for the provided JSX */
+.staff-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.staff-form td {
+  padding: 15px;
+  text-align: left; /* Align text to the left */
+  vertical-align: left; /* Vertically center the content */
+  font-size: 14px;
+  border-bottom: 1px solid #f3c4d6;
+  color: #333;
+  word-wrap: break-word;
+  min-width: 150px; /* Set a minimum width for cells */
+}
+
+.staff-form td input[type="text"] {
+  width: 100%; /* Ensure inputs take up the full width of their parent */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #e3a9bd;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Align input fields inside each td */
+.staff-form td input[type="text"]:focus {
+  border-color: #d6336c; /* Focus border color */
+  outline: none;
+}
+
+/* Adjust spacing between table columns */
+.staff-form table td {
+  width: 50.33%; /* Ensure 3 equal columns */
+  margin-right: 30px; /* Optional: space between columns */
+}
+
+/* Table Row Hover Effect */
+.staff-form table tbody tr:hover {
+  background-color: #f9d6de; /* Lighter pink on hover */
+}
+.experience-item {
+  margin-bottom: 30px; 
+  border-radius: 10px; 
+   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+
+}
+
+
+
+/* Professional Experience Section
+.experience-item {
+  width: 100%; /* Full width for each experience item */
+  /* margin-bottom: 30px; /* Add spacing between each experience item */
+  /* padding: 20px; /* Add padding for better visibility */
+  /* background-color: #fce4ec; Light pink background for each experience block */
+  /* border-radius: 10px; /* Rounded corners for a softer look */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+/* } */ 
+
+/* Headings for Each Experience */
+.experience-item h4 {
+  font-size: 20px; /* Larger font for headings */
+  font-weight: bold;
+  color: #d6336c; /* Deep pink for headings */
+  margin-bottom: 15px; /* Add space below headings */
+  text-transform: uppercase;
+}
+
+/* Labels in Professional Experience */
+.experience-item label {
+  display: block; /* Stack labels vertically */
+  font-size: 16px; /* Increase label font size */
+  color: #d6336c; /* Deep pink for labels */
+  font-weight: bold;
+  margin-bottom: 8px; /* Add spacing below labels */
+}
+
+/* Inputs in Professional Experience */
+.experience-item input[type="text"],
+.experience-item input[type="date"],
+.experience-item .react-datepicker-wrapper {
+  width: 100%; /* Ensure inputs take the full width */
+  padding: 10px; /* Add padding for comfort */
+  font-size: 14px;
+  border: 1px solid #e3a9bd; /* Light pink border */
+  border-radius: 6px; /* Rounded corners for inputs */
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text for readability */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Add spacing between inputs */
+}
+
+/* Button Styling for Adding/Removing Experiences */
+.experience-item .remove-btn {
+  background-color: #c51162; /* Vibrant pink for remove button */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px; /* Space above the button */
+  transition: background-color 0.3s ease;
+}
+
+.experience-item .remove-btn:hover {
+  background-color: #c51162; /* Darker pink on hover */
+}
+
+.add-btn {
+  display: block; /* Center align the button */
+  margin: 20px auto; /* Add margin around the button */
+  background-color: #00c853; /* Bright green for add button */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #009624; /* Darker green on hover */
+}
+
+.react-datepicker__current-month {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #d6336c !important;
+}
+
+
+
+
